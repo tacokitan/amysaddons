@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "windswept_hills",
+    "snowy_plains",
+    "snowy_slopes",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "spawners": {
+    "type": "amys_addons:snow_slug",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

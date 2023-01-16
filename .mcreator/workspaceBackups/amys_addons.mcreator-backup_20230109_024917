@@ -1,0 +1,94 @@
+{
+  "mod_elements": [
+    {
+      "name": "SnowSlug",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snow_slug",
+      "path": "~/SnowSlug"
+    },
+    {
+      "name": "IceShell",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_shell",
+      "path": "~/SnowSlug"
+    },
+    {
+      "name": "IceEpaulettes",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_epaulettes",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/SnowSlug"
+    },
+    {
+      "name": "IceEpaulettesFireResist",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_epaulettes_fire_resist",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/SnowSlug"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.amys_addons.ice_shell": "Ice Shell",
+      "item.amys_addons.ice_epaulettes_boots": "Ice Epaulettes Boots",
+      "item.amys_addons.ice_epaulettes_chestplate": "Ice Epaulettes",
+      "item.amys_addons.ice_epaulettes_leggings": "Ice Epaulettes Leggings",
+      "entity.amys_addons.snow_slug": "Snow Slug",
+      "item.amys_addons.ice_epaulettes_helmet": "Ice Epaulettes Helmet",
+      "item.amys_addons.snow_slug_spawn_egg": "Snow Slug Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "SnowSlug",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "amys_addons",
+    "modName": "Amy\u0027s Addons",
+    "version": "1.0.0",
+    "author": "tacoki, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.amysaddons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}
